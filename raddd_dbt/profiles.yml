@@ -1,0 +1,10 @@
+raddd_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/dev.duckdb
+      threads: 1
+      attach:
+        - path: audio.db
+          type: sqlite
+  target: dev
