@@ -58,4 +58,4 @@ Try running the following commands:
 - https://duckdb.org/docs/api/python/relational_api.html
 - https://github.com/dagster-io/dagster/issues/1890
 - https://docs.dagster.io/concepts/partitions-schedules-sensors/backfills
-- https://github.com/duckdb/duckdb/discussions/9607
+- https://github.com/duckdb/duckdb/discussions/9607# s4_dx7
