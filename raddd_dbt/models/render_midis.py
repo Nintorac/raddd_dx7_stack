@@ -83,9 +83,9 @@ def model(dbt, session):
         [duckdb.typing.DuckDBPyType(
             list[{
                 'start_time': float,
+                'note': int,
                 'duration': float,
                 'velocity': int,
-                'note': int,
             }
             ]    )],
         duckdb.typing.DuckDBPyType(bytes),
